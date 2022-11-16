@@ -52,7 +52,7 @@ document.getElementsByTagName("a")[5].href = "#icons"
 
 // SRC
 logoLink.href = "index.html"
-imgLink.src = "../images/demo-logo.png";
+imgLink.src = "./images/demo-logo.png";
 
 // Functions
 headerIcon.onclick = () => {
@@ -98,8 +98,8 @@ ContentDiv.appendChild(heading);
 ContentDiv.appendChild(paragraph);
 
 // SRC
-landingImg.src = "../images/home2.png";
-landingWave.src = "../images/wave1.png";
+landingImg.src = "./images/home2.png";
+landingWave.src = "./images/wave1.png";
 
 // Add Content
 heading.innerHTML = "BEST DIGITAL AGENCY"
@@ -165,9 +165,9 @@ document.getElementsByTagName("h2")[1].textContent = "WHAT WE DO ?";
 document.getElementsByTagName("a")[6].textContent = "All Services";
 
 
-document.getElementsByTagName("img")[3].src = "../images/service1.png";
-document.getElementsByTagName("img")[4].src = "../images/service2.png";
-document.getElementsByTagName("img")[5].src = "../images/service3.png";
+document.getElementsByTagName("img")[3].src = "./images/service1.png";
+document.getElementsByTagName("img")[4].src = "./images/service2.png";
+document.getElementsByTagName("img")[5].src = "./images/service3.png";
 
 document.getElementsByTagName("h4")[0].textContent = "GROWTH MARKETING";
 document.getElementsByTagName("h4")[1].textContent = "ONLINE BRANDING";
@@ -222,7 +222,7 @@ for(let k = 0; k < 5; k++){
 }
 
 // Add Content
-advantageImg.src = "../images/network.png";
+advantageImg.src = "./images/network.png";
 document.getElementsByTagName("h2")[2].textContent = "WHY CHOOSE US ?";
 document.getElementsByTagName("h2")[3].textContent = "Why we're different";
 document.getElementsByTagName("li")[5].textContent = "Understand our clint's business goal first";
@@ -298,8 +298,8 @@ document.getElementsByTagName("p")[7].textContent = "We are a digital marketing 
 document.getElementsByTagName("p")[8].textContent = "John Doe";
 document.getElementsByTagName("p")[9].textContent = "Director at xyz";
 
-document.getElementsByTagName("img")[7].src = "../images/user1.jpg"
-document.getElementsByTagName("img")[8].src = "../images/user2.jpg"
+document.getElementsByTagName("img")[7].src = "./images/user1.jpg"
+document.getElementsByTagName("img")[8].src = "./images/user2.jpg"
 
 // End Testimonials
 
@@ -339,12 +339,12 @@ iconUl.classList.add("d-flex" , "p-0" , "m-0" , "list-unstyled" , "w-100" , "jus
 
 // Add Content
 document.getElementsByTagName("h2")[5].textContent = "WHAT CLIENTS SAY";
-document.getElementsByTagName("img")[9].src = "../images/facebook-icon.png";
-document.getElementsByTagName("img")[10].src = "../images/instagram-icon.png";
-document.getElementsByTagName("img")[11].src = "../images/twitter-icon.png";
-document.getElementsByTagName("img")[12].src = "../images/whatsapp-icon.png";
-document.getElementsByTagName("img")[13].src = "../images/linkedin-icon.png";
-document.getElementsByTagName("img")[14].src = "../images/snapchat-icon.png";
+document.getElementsByTagName("img")[9].src = "./images/facebook-icon.png";
+document.getElementsByTagName("img")[10].src = "./images/instagram-icon.png";
+document.getElementsByTagName("img")[11].src = "./images/twitter-icon.png";
+document.getElementsByTagName("img")[12].src = "./images/whatsapp-icon.png";
+document.getElementsByTagName("img")[13].src = "./images/linkedin-icon.png";
+document.getElementsByTagName("img")[14].src = "./images/snapchat-icon.png";
 
 // End Social
 
@@ -408,8 +408,8 @@ footerCopySpanOne.classList.add("me-1");
 footerCopyIcon.classList.add("me-1");
 footerCopySpanTwo.classList.add("me-1");
 // Add Content
-footerImgLogo.src = "../images/demo-logo.png";
-footerImgUp.src = "../images/wave2.png";
+footerImgLogo.src = "./images/demo-logo.png";
+footerImgUp.src = "./images/wave2.png";
 footerCopySpanOne.textContent = "Made With";
 footerCopySpanTwo.textContent = "By";
 footerCopyLink.textContent = "Mohamed Abdelfattah";
